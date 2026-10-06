@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /** @author pcorealva */
 
-public class E0211 {
+public class DiaDeLaSemana {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);

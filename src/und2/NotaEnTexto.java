@@ -13,8 +13,8 @@ public class NotaEnTexto {
     sc.close();
 
     switch (nota) {
-        case 1,2,3,4:
-                System.out.println("Tu nota es un insuficiente");
+        case 1, 2, 3, 4:
+            System.out.println("Tu nota es un insuficiente");
             break;
         case 5:
             System.out.println("Tu nota es un suficiente");
@@ -22,7 +22,7 @@ public class NotaEnTexto {
         case 6:
             System.out.println("Tu nota es un bien");
             break;
-        case 7,8:
+        case 7, 8:
             System.out.println("Tu nota es un notable");
             break;
         default:
