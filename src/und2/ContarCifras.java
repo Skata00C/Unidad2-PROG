@@ -10,10 +10,12 @@ public class ContarCifras {
         System.out.print("Introduce un número entre 0 y 99999: ");
         int numero = sc.nextInt();
 
+        sc.close();
+
         // Versión negativa
         numero = Math.abs(numero);
 
-        sc.close();
+        
 
         // Resultado
         if (numero >= 0 && numero <= 9) {
