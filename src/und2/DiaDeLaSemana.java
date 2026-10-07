@@ -31,8 +31,10 @@ public class DiaDeLaSemana {
             case 6:
                 System.out.println("Sábado");
                 break;
-            default:
+            case 7:
                 System.out.println("Domingo");
+            default:
+                System.out.println("No esta dentro del rango de 1-7");
                 break;
         }
     }

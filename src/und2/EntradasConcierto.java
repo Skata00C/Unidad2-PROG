@@ -43,7 +43,7 @@ public class EntradasConcierto {
             System.out.println("========================");
             System.out.println("Aforo total: " + aforo + "\n" + "Precio de las entradas: " + precio + "\n" + "Entradas vendidas: " + entradas );
             double resultado = (entradas * precio);
-            System.out.println("Dinero total recaudado por el concierto: " + resultado + " euros.");
+            System.out.printf("Dinero total recaudado por el concierto: " + resultado + " euros.");
         } 
         
         
