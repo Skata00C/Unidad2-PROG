@@ -8,12 +8,12 @@ public class NúmeroSecreto {
         
         Scanner sc = new Scanner(System.in);
 
-        final int num1 = 0;
-        final int num2 = 100;
+        final int NUM1 = 0;
+        final int NUM2 = 100;
 
         Random rng = new Random();
 
-        int numRandom = (rng.nextInt(num1, num2) + 1 );
+        int numRandom = (rng.nextInt(NUM1, NUM2) + 1 );
 
         System.out.print("Empieza el juego con tu primer número: ");
         int numTeclado = sc.nextInt();
@@ -26,6 +26,8 @@ public class NúmeroSecreto {
             }
             numTeclado = sc.nextInt();
         }
+
+        sc.close();
 
         System.out.println("Siiii!!, tu número secreto era el: " + numTeclado);
     }
